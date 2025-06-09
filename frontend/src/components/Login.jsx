@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router"; // ensure this is correct
+import AuthGoogleButton from "../features/auth/authGoogleButton";
 
 const Login = () => {
   return (
@@ -33,11 +34,9 @@ const Login = () => {
             Welcome to your professional community
           </h1>
           <div className="flex flex-col gap-5 py-6">
-            <button className="flex items-center justify-center gap-2 font-bold text-black/70 mr-2 hover:bg-black/5 border border[text-black/70]  w-96 h-12 rounded-full">
-              <img src="/images/google.svg" alt="Google logo" />
-              <span>Continue with Google</span>
-            </button>
+            <AuthGoogleButton />
            
+            
             <button className="flex items-center justify-center gap-2 font-bold text-black/70 mr-2 hover:bg-black/5 border border[text-black/70]  w-96 h-11 rounded-full">
               <span>Sign in with email</span>
             </button>

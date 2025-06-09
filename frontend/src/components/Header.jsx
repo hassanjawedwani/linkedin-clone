@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 const Header = () => {
   // const [showSearchBar, setShowSearchBar] = useState(false);
   return (
-    <div className="bg-white pl-4 pr-0  border-b border-b-gray-300 z-100 shadow-2xs flex gap-2 justify-between">
+    <div className="bg-white pl-4 pr-0  border-b border-b-gray-300 z-100 shadow-2xs flex gap-2 justify-between max-w-7xl mx-auto">
       <div className="flex items-center gap-2 grow">
         <img src="/images/linkedin.png" alt="linkedin logo" className="" />
 
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
 
-      <nav className="fixed md:relative bottom-0 left-0 w-full md:w-auto px-4  border-t md:border-0 border-t-gray-300 z-100 ">
+      <nav className=" bg-white fixed md:relative bottom-0 left-0 w-full md:w-auto px-4  border-t md:border-0 border-t-gray-300 z-100 ">
         <ul className="flex justify-between items-center gap-2">
           <li>
             <NavLink
